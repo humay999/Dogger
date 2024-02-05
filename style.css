@@ -111,7 +111,7 @@ body {
 #trainers h3, #trainers h4 {
   font-weight: 700;
   font-size: 23px;
-  color: #a8a8a8;
+  color: #7e7d7d;
   margin: 20px 0;
   line-height: 1.4;
 }
@@ -121,7 +121,7 @@ body {
 #trainers .box .textbox {
   padding: 15px;
 }
-#trainers .box h2 {
+#trainers .box .textbox h2 {
   font-weight: 300px;
   font-size: 25px;
   padding: 20px 0;
@@ -143,6 +143,11 @@ body {
 }
 #trainers .wid {
   width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #trainers .textbox h4 {
+    font-size: 20px;
+  }
 }
 
 #pricing {
