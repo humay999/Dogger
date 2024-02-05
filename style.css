@@ -74,6 +74,12 @@ body {
   #welcome .textbox {
     padding: 30px 80px;
   }
+  #welcome .care {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   #welcome .cl {
     display: flex;
     flex-direction: column-reverse;
