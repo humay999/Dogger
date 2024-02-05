@@ -22,6 +22,20 @@ body {
 #carefor .imgbox {
   width: 450px;
 }
+@media screen and (max-width: 992px) {
+  #carefor .textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 476px) {
+  #carefor .textbox {
+    text-align: center;
+  }
+}
 
 #welcome {
   padding: 40px 0;
