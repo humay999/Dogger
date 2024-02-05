@@ -56,6 +56,15 @@ body {
 #welcome .wid {
   width: 580px;
 }
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 30px 80px;
+  }
+  #welcome .cl {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 
 #aboutus {
   padding: 0 100px;
