@@ -327,6 +327,7 @@ body {
 #dogger h1 {
   font-size: 35px;
   font-weight: 700;
+  margin: 15px 0;
 }
 #dogger h3 {
   font-size: 20px;
@@ -352,7 +353,10 @@ body {
 #dogger .textbox p, #dogger .textbox h4 {
   margin: 20px 0 0;
 }
-
+#dogger .bigicon i {
+  font-size: 30px;
+  color: #d4cece;
+}
 #services {
   padding: 40px 0;
 }
