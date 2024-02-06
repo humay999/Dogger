@@ -278,7 +278,7 @@ body {
   line-height: 1.4;
 }
 #questions .textbox {
-  padding: 0 70px;
+  width: 100%;
 }
 #questions .textbox h2, #questions .textbox h4 {
   font-size: 25px;
@@ -305,6 +305,17 @@ body {
 }
 #questions .icon i {
   font-size: 22px;
+}
+#questions .imgbox {
+  padding-top: 15px;
+  width: 540px;
+  height: 360px;
+}
+@media screen and (max-width: 575px) {
+  #questions .imgbox {
+    width: auto;
+    height: auto;
+  }
 }
 
 #dogger {
