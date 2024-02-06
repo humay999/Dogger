@@ -379,6 +379,7 @@ body {
 #services h1 {
   font-size: 35px;
   font-weight: 700;
+  margin: 15px 0;
 }
 #services h3 {
   font-size: 20px;
@@ -398,4 +399,8 @@ body {
 }
 #services .textbox .icon {
   font-size: 60px;
+}
+#services .bigicon i {
+  font-size: 30px;
+  color: #d4cece;
 }/*# sourceMappingURL=style.css.map */
