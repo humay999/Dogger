@@ -367,12 +367,14 @@ body {
   color: #d4cece;
 }
 @media screen and (max-width: 992px) {
+  #dogger .box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
   #dogger .imgbox {
     width: auto;
     height: auto;
-  }
-  #dogger .box {
-    padding-bottom: 15px;
   }
   #dogger .box .textbox {
     margin: 15px 0;
