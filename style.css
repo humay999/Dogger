@@ -86,6 +86,7 @@ body {
 #aboutus .textbox h1 {
   font-weight: 700;
   font-size: 35px;
+  margin: 15px 0;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
   color: #a8a8a8;
@@ -111,8 +112,25 @@ body {
   font-size: 20px;
   color: #423737;
 }
+#aboutus .textbox .bigicon i {
+  font-size: 30px;
+  color: #d4cece;
+}
 #aboutus .imgbox {
-  width: 450px;
+  width: 540px;
+  heigth: 720px;
+}
+@media screen and (max-width: 991px) {
+  #aboutus .imgbox {
+    width: 690px;
+    height: 920px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #aboutus .imgbox {
+    width: auto;
+    height: auto;
+  }
 }
 
 #trainers {
