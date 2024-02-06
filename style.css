@@ -200,6 +200,7 @@ body {
 #pricing .textbox h1 {
   font-weight: 700;
   font-size: 35px;
+  margin: 15px 0;
 }
 #pricing .textbox h5 {
   font-weight: 200;
@@ -246,6 +247,15 @@ body {
 }
 #pricing .PREMIUM-color .btn {
   background-color: #739f8a;
+}
+#pricing .bigicon i {
+  font-size: 30px;
+  color: #d4cece;
+}
+@media (min-width: 768px) {
+  #pricing .box {
+    padding: 50px;
+  }
 }
 
 #questions {
