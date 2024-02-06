@@ -139,6 +139,7 @@ body {
 #trainers h1 {
   font-weight: 700;
   font-size: 38px;
+  margin: 15px 0;
 }
 #trainers h3, #trainers h4 {
   font-weight: 700;
@@ -146,6 +147,10 @@ body {
   color: #7e7d7d;
   margin: 20px 0;
   line-height: 1.4;
+}
+#trainers .bigicon i {
+  font-size: 30px;
+  color: #9b9595;
 }
 #trainers .box {
   margin: 0 5px;
@@ -177,8 +182,11 @@ body {
   width: 580px;
 }
 @media screen and (max-width: 992px) {
-  #trainers .textbox h4 {
-    font-size: 20px;
+  #trainers .box {
+    padding-bottom: 10px;
+  }
+  #trainers .box .textbox {
+    padding: 15px 0;
   }
 }
 
