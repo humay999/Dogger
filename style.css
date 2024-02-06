@@ -46,6 +46,7 @@ body {
 #welcome .textbox h1 {
   font-weight: 700;
   font-size: 30px;
+  margin: 15px 0;
 }
 #welcome .textbox h3 {
   color: #868686;
@@ -69,6 +70,10 @@ body {
 }
 #welcome .wid {
   width: 580px;
+}
+#welcome .bigicon i {
+  font-size: 30px;
+  color: #d4cece;
 }
 @media screen and (max-width: 992px) {
   #welcome .textbox {
@@ -311,7 +316,13 @@ body {
   width: 540px;
   height: 360px;
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 991px) {
+  #questions .imgbox {
+    width: 690px;
+    height: 920px;
+  }
+}
+@media screen and (max-width: 767px) {
   #questions .imgbox {
     width: auto;
     height: auto;
